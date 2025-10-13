@@ -42,6 +42,10 @@ int main() {
         
         case 5:
             break;
+
+        default :
+            printf("Invalid Choice!");
+            break;
         
     }
     return 0;
