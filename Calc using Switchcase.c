@@ -36,8 +36,9 @@ int main() {
             break;
         
         case 4:
-            num3 = num1 / num2;
-            printf("The Division of %d & %d is %d",num1,num2,num3);
+        //  num3 = num1 / num2;
+        //  printf("The Division of %d & %d is %d",num1,num2,num3);
+            printf("The Division of %d & %d is %f",num1,num2,(float)num1/num2);
             break;
         
         case 5:
