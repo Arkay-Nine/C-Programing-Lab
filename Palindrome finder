@@ -1,0 +1,32 @@
+251M031
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    
+    char str[100];
+    
+    printf("Enter your charaters =>");
+    fgets(str,30,stdin);
+    
+    int len = strlen(str)-1;
+    
+    char rstr[100];
+    int j=0;
+    for(int i = len; i >= 0; i--)
+    {
+        
+        rstr[j] = str[i];
+        j++;
+    }
+    
+    if(str == rstr)
+    {
+        printf("The character is Palindrome");
+    }
+    else
+    {
+        printf("The character isn't Palindrome");
+    }
+    printf("\n %s",rstr);
+}
